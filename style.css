@@ -92,6 +92,22 @@ body {
     margin: 0px 30px 30px 30px;
 }
 
+.portImage {
+    width: 435px;
+    height: 435px;
+}
+
+.gLabel {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 32px;
+    width: 435px;
+    bottom: 20px;
+}
+
 #foots {
     background: #666666;
     border-top-style: solid;
