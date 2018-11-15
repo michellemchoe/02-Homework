@@ -1,0 +1,123 @@
+#heads {
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-color: #666666;
+    border-width: 2px;
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 30px;
+    margin: 0px 0px  0px calc((33%)/2);
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbarNav {
+    float: right;
+    margin-left: 36%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(p4.png);
+}
+
+#content {
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    background-color: #ffffff;
+    color: #777777;
+    margin: 0 auto 90px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+#pageTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: #4aaaa5;
+    margin: 24px 30px;
+    padding-bottom: 24px;
+    border-bottom-style: solid;
+    border-color: #666666;
+    border-width: 2px;
+    margin-bottom: 30px;
+}
+
+.about {
+    margin: 0px 30px 30px 30px;
+}
+
+.profilePic {
+    float: left;
+    margin-right: 12px;
+    height: 200px;
+    width: auto;
+}
+
+.bioText {
+    text-align: left;
+    min-height: 200px; 
+}
+
+.contact {
+    margin: 0px 30px 30px 30px;
+}
+
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.formLabel {
+    padding-bottom: 8px;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-style: none;
+    padding: 6px 18 px;
+}
+
+.gallery {
+    margin: 0px 30px 30px 30px;
+}
+
+.portImage {
+    width: 435px;
+    height: 435px;
+}
+
+.gLabel {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 32px;
+    width: 435px;
+    bottom: 20px;
+}
+
+#foots {
+    background: #666666;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.navbar-text {
+    color: #ffffff;
+}
+
