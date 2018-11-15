@@ -8,13 +8,14 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
     <title>Michelle Choe</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" id="heads">
         <a class="navbar-brand" href="#">Michelle Choe</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -39,22 +40,31 @@
 
     <div class="container-fluid">
         <div class="row justify-content-md-center">
-            <div class="col-md-5">
-                <div class="row">
+            <div class="col-md-8" id="content">
+                <div class="row" id="pageTitle">
                     About Me
                 </div>
-                <div class="row">
-                    <img src="https://via.placeholder.com/150" class="img-fluid" alt="Michelle Choe">
-                    <div style="float: left">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nemo rerum praesentium, odio alias
-                        veniam obcaecati dolor, laborum aspernatur vitae ipsam quos maiores expedita incidunt.
-                        Suscipit, aliquam eius. Impedit, ipsam.
+                <div class="about">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img class="profilePic" src="https://via.placeholder.com/150" class="img-fluid" alt="Michelle Choe">
+                            <div class="bioText">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nemo rerum praesentium,
+                                odio
+                                alias
+                                veniam obcaecati dolor, laborum aspernatur vitae ipsam quos maiores expedita incidunt.
+                                Suscipit, aliquam eius. Impedit, ipsam.
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquid porro id inventore nam autem, eius maxime quod nemo vero omnis amet distinctio ipsam voluptatem nobis nihil iusto cupiditate? Culpa!
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi magni id ab asperiores eius soluta et in quibusdam laborum harum maiores quis, labore debitis ipsum obcaecati necessitatibus rerum quae ut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat obcaecati corrupti delectus veniam tenetur quasi nostrum nihil et adipisci quia aliquam fugit autem, rem optio id harum! Iusto, aliquam?
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-2">
-                This will be the connect with me.
-            </div>
+
         </div>
     </div>
 
@@ -74,7 +84,7 @@
 
 
 
-    <nav class="navbar fixed-bottom navbar-light bg-light">
+    <nav class="navbar fixed-bottom navbar-light" id="foots">
         <div class="mx-auto" style="width: 200px;">
             <span class="navbar-text">
                 Copyright &copy 2018
