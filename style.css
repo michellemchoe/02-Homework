@@ -69,6 +69,25 @@ body {
     margin: 0px 30px 30px 30px;
 }
 
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.formLabel {
+    padding-bottom: 8px;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-style: none;
+    padding: 6px 18 px;
+}
+
 .gallery {
     margin: 0px 30px 30px 30px;
 }
@@ -85,3 +104,4 @@ body {
 .navbar-text {
     color: #ffffff;
 }
+
